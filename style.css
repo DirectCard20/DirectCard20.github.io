@@ -24,7 +24,7 @@ h3{
 .foto{
     width: 280px;
 }
-@media (min-width: 0px) and (min-width: 425px){
+@media (min-width: 0px) and (max-width: 425px){
     .titulo{
         font-size: 24px;
         margin-top: 4px;
@@ -34,7 +34,7 @@ h3{
         font-size: 12px;
     }
     .foto{
-        width: 200px;
+        width: 80%;
     }
     h3{
         font-size: 16px;
