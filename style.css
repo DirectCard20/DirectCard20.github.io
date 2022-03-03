@@ -23,6 +23,7 @@ h3{
 }
 .foto{
     width: 280px;
+    margin-left: 8%;
 }
 @media (min-width: 0px) and (max-width: 425px){
     .titulo{
