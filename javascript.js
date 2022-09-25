@@ -21,16 +21,16 @@ botao.onclick = function(){
 
 function darkMode (){
     html.style.cssText = 'background-image: url("https://images.pexels.com/photos/1526725/pexels-photo-1526725.jpeg?auto=compress&cs=tinysrgb&w=6000&h=4000&dpr=1");' + 'background-size: cover;';
-    botao.style.cssText = 'background-color: #0195bd;' + 'color: black;' + 'border: 1px solid black;';
+    botao.style.cssText = 'background: rgba(255, 255, 255, 0.1);' + 'color: black;' + 'border: 1px solid black;';
+    botao.innerHTML = 'Dark Mode';
     corpo2.style.cssText = 'border: solid white 2px;';
     foto.style.cssText = 'border: solid white 2px;';
-    botao.innerHTML = 'Dark Mode';
 }
 
 function lightMode(){
     html.style.cssText = 'background-image: url("https://images.pexels.com/photos/1417647/pexels-photo-1417647.jpeg?auto=compress&cs=tinysrgb&w=5472&h=3648&dpr=1");' + 'background-size: cover;';
-    botao.style.cssText = 'background-color: #334044;';
+    botao.style.cssText = 'background: rgba(255, 255, 255, 0.1);';
+    botao.innerHTML = 'Light Mode';
     corpo2.style.cssText = 'border: solid black 2px;';
     foto.style.cssText = 'border: solid black 2px;';
-    botao.innerHTML = 'Light Mode';
 }
