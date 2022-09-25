@@ -1,7 +1,23 @@
-body{
+#mudar_tema{
+    text-align: right;
+}
+.botao_mudar{
+    color: white;
+    padding: 5px;
+    background-color: #334044;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Black Ops One';
+    font-size: 18px;
+}
+.botao_mudar:active{
+    transform: translatex(5px);
+    transform: translateY(5px);
+}
+#corpo2{
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 50px;
     border-radius: 10px;
     padding-top: 2px;
@@ -10,10 +26,6 @@ body{
     padding-right: 15px;
     backdrop-filter: blur(2px);
     border: solid black 2px;
-}
-html{
-    background-image: url('https://images.pexels.com/photos/1417647/pexels-photo-1417647.jpeg?auto=compress&cs=tinysrgb&w=5472&h=3648&dpr=1');
-    background-size: cover;
 }
 h3{
     font-family: 'Black Ops One';
