@@ -1,12 +1,20 @@
 const botao = document.querySelector(".botao_mudar");
-let html = document.querySelector("html");
-let divBotao = document.querySelector("#mudar_tema");
-let corpo2 = document.querySelector("#corpo2");
-let foto = document.querySelector(".foto");
+const html = document.querySelector("html");
+const divBotao = document.querySelector("#mudar_tema");
+const corpo2 = document.querySelector("#corpo2");
+const foto = document.querySelector(".foto");
+const data = new Date();
+const ANONASCIMENTO = 2002;
 
 window.onload = function (){
     html.style.cssText = 'background-image: url("https://images.pexels.com/photos/1417647/pexels-photo-1417647.jpeg?auto=compress&cs=tinysrgb&w=5472&h=3648&dpr=1");' + 'background-size: cover;';
     botao.innerHTML = 'Light Mode';
+    const informacoes = document.querySelector('.informacoes');
+    const currentYear = data.getFullYear();
+    const idade = currentYear - ANONASCIMENTO;
+    informacoes.innerHTML = `Brasileiro &bull; ${idade} anos<br>
+                            Barro, Ceará<br>
+                            gui-costaquino@hotmail.com`;
 }
 
 let aux = 0;
