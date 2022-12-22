@@ -28,7 +28,7 @@ botao.onclick = function(){
 }
 
 function darkMode (){
-    html.style.cssText = 'background-image: url("https://images.pexels.com/photos/1526725/pexels-photo-1526725.jpeg?auto=compress&cs=tinysrgb&w=6000&h=4000&dpr=1");' + 'background-size: cover;';
+    html.style.cssText = 'background-image: url(./img/pexels-jarod-lovekamp-5109718.jpg);' + 'background-size: cover;';
     botao.style.cssText = 'background: rgba(255, 255, 255, 0.1);' + 'color: black;' + 'border: 1px solid black;';
     botao.innerHTML = 'Dark Mode';
     sessao1.style.cssText = 'border: solid white 2px;';
@@ -40,7 +40,7 @@ function darkMode (){
 }
 
 function lightMode(){
-    html.style.cssText = 'background-image: url("https://images.pexels.com/photos/1417647/pexels-photo-1417647.jpeg?auto=compress&cs=tinysrgb&w=5472&h=3648&dpr=1");' + 'background-size: cover;';
+    html.style.cssText = 'background-image: url(./img/pexels-photo-1417647.jpeg);' + 'background-size: cover;';
     botao.style.cssText = 'background: rgba(255, 255, 255, 0.1);';
     botao.innerHTML = 'Light Mode';
     sessao1.style.cssText = 'border: solid black 2px;';
