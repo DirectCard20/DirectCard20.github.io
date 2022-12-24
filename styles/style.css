@@ -51,11 +51,11 @@ p{
     width: 280px;
     margin-left: 8%;
     margin-bottom: 5%;
-    border: solid black 2px;
     border-radius: 4px;
     padding-bottom: 5%;
 }
-@media (min-width: 0px) and (max-width: 425px){
+/* Responsividade Mobile */
+@media (min-width: 320px) and (max-width: 480px){
     .titulo{
         font-size: 24px;
         margin-top: 4px;
@@ -74,7 +74,8 @@ p{
         font-size: 14px;
     }
 }
-@media (min-width: 426px) and (max-width: 990px){
+/* Responsividade Tablet */
+@media (min-width: 481px) and (max-width: 768px){
     .informacoes{
         text-align: right;
         font-size: 14px;
@@ -89,7 +90,8 @@ p{
         font-size: 18px;
     }
 }
-@media (min-width: 991px){
+/* Responsividade Laptop */
+@media (min-width: 769px) and (max-width: 1023px){
     .titulo{
         font-size: 30px;
     }
@@ -98,7 +100,7 @@ p{
         font-size: 16px;
     }
     .foto{
-        width: 30%;
+        width: 34%;
         padding-left: 2.5%;
         padding-right: 2.5%;
     }
@@ -108,4 +110,12 @@ p{
     p{
         font-size: 20px;
     }
+}
+/* Responsividade Desktop */
+@media (min-width: 1024px) and (max-width: 1200px){
+
+}
+/* Responsividade TV */
+@media (min-width: 1201px){
+
 }
