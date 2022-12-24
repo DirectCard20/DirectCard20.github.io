@@ -53,6 +53,7 @@ p{
     margin-bottom: 5%;
     border-radius: 4px;
     padding-bottom: 5%;
+    border: 2px groove #000000;
 }
 /* Responsividade Mobile */
 @media (min-width: 320px) and (max-width: 480px){
@@ -66,6 +67,8 @@ p{
     }
     .foto{
         width: 80%;
+        box-shadow: 0px 10px 13px 2px rgba(0,0,0,0.7);
+        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
     }
     h3{
         font-size: 16px;
@@ -80,8 +83,15 @@ p{
         text-align: right;
         font-size: 14px;
     }
+    #divFoto{
+        text-align: center;
+    }
     .foto{
-        width: 80%;
+        width: 60%;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        box-shadow: 0px 12px 13px 4px rgba(0,0,0,0.7);
+        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
     }
     h3{
         font-size: 20px;
@@ -103,6 +113,8 @@ p{
         width: 34%;
         padding-left: 2.5%;
         padding-right: 2.5%;
+        box-shadow: 0px 14px 13px 8px rgba(0,0,0,0.7);
+        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
     }
     h3{
         font-size: 24px;
@@ -113,9 +125,47 @@ p{
 }
 /* Responsividade Desktop */
 @media (min-width: 1024px) and (max-width: 1200px){
-
+    .titulo{
+        font-size: 30px;
+    }
+    .informacoes{
+        text-align: right;
+        font-size: 16px;
+    }
+    .foto{
+        width: 34%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        box-shadow: 0px 18px 13px 10px rgba(0,0,0,0.7);
+        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
+    }
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
 }
 /* Responsividade TV */
 @media (min-width: 1201px){
-
+    .titulo{
+        font-size: 30px;
+    }
+    .informacoes{
+        text-align: right;
+        font-size: 16px;
+    }
+    .foto{
+        width: 30%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        box-shadow: 0px 20px 13px 12px rgba(0,0,0,0.7);
+        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
+    }
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 20px;
+    }
 }
