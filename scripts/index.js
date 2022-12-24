@@ -7,7 +7,7 @@ const data = new Date();
 const ANONASCIMENTO = 2002;
 
 window.onload = function (){
-    html.style.cssText = 'background-image: url("https://images.pexels.com/photos/1417647/pexels-photo-1417647.jpeg?auto=compress&cs=tinysrgb&w=5472&h=3648&dpr=1");' + 'background-size: cover;';
+    html.style.cssText = 'background-image: url(./img/pexels-photo-1417647.jpeg);' + 'background-size: cover;';
     botao.innerHTML = 'Light Mode';
     const informacoes = document.querySelector('.informacoes');
     const currentYear = data.getFullYear();
