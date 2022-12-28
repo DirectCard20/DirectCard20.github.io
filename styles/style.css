@@ -1,171 +1,66 @@
-#mudar_tema{
-    text-align: right;
+html{
+    background: url(/img/pexels-jarod-lovekamp-5109718.jpg);
 }
-.botao_mudar{
-    color: white;
-    padding: 5px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Black Ops One';
-    font-size: 18px;
+#card1{
+    box-sizing: border-box;
+    width: 896px;
+    height: 506px;
+    margin-top: 132px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(217, 217, 217, 0.7);
+    border: 1px solid #000000;
+    backdrop-filter: blur(2.5px);
+    border-radius: 30px;
 }
-.botao_mudar:active{
-    transform: translatex(5px);
-    transform: translateY(5px);
-}
-#sessao1, #sessao2, #sessao3, #sessao4, #sessao5{
-    margin-left: 15%;
-    margin-right: 15%;
+#nome{
+    width: 647px;
+    height: 52px;
     margin-top: 10px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-    padding-right: 15px;
-    backdrop-filter: blur(2px);
-    border: solid black 2px;
+    margin-left: 50px;
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 55px;
+    color: #2B2D39;
 }
-h3{
-    font-family: 'Black Ops One';
-    text-transform: uppercase;
-    color: #F25050;
-}
-p{
-    font-family: 'Expletus Sans';
-    color: #F2CA50;
-}
-.titulo{
-    font-family: 'Black Ops One';
-    color: #F25050;
-}
-.informacoes{
+#informacoes{
+    width: 411px;
+    height: 77px;
+    margin-left: 450px;
+    margin-top: 20px;
+    font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
     text-align: right;
-    margin-top: -20px;
-    margin-right: 10px;
-    font-family: "Black Ops One";
-    color: #F2CA50;
+    color: #484F18;
+}
+#divFoto{
+    box-sizing: border-box;
+    width: 346px;
+    height: 266px;
+    margin-left: 100px;
+    margin-top: 10px;
+    background: linear-gradient(300.58deg, #626262 0%, rgba(155, 197, 195, 0) 100%);
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 30px;
 }
 .foto{
-    width: 280px;
-    margin-left: 8%;
-    margin-bottom: 5%;
-    border-radius: 4px;
-    padding-bottom: 5%;
-    border: 2px groove #000000;
+    width: 219px;
+    height: 218px;
+    margin-left: 60px;
 }
-/* Responsividade Mobile */
-@media (min-width: 320px) and (max-width: 480px){
-    .titulo{
-        font-size: 24px;
-        margin-top: 4px;
-    }
-    .informacoes{
-        text-align: left;
-        font-size: 12px;
-    }
-    .foto{
-        width: 80%;
-        box-shadow: 0px 10px 13px 2px rgba(0,0,0,0.7);
-        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
-    }
-    h3{
-        font-size: 16px;
-    }
-    p{
-        font-size: 14px;
-    }
+#social{
+    margin-top: -80px;
+    margin-left: 570px;
 }
-/* Responsividade Tablet */
-@media (min-width: 481px) and (max-width: 768px){
-    .informacoes{
-        text-align: right;
-        font-size: 14px;
-    }
-    #divFoto{
-        text-align: center;
-    }
-    .foto{
-        width: 60%;
-        margin-left: 0%;
-        margin-bottom: 5%;
-        box-shadow: 0px 12px 13px 4px rgba(0,0,0,0.7);
-        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
-    }
-    h3{
-        font-size: 20px;
-    }
-    p{
-        font-size: 18px;
-    }
-}
-/* Responsividade Laptop */
-@media (min-width: 769px) and (max-width: 1023px){
-    .titulo{
-        font-size: 30px;
-    }
-    .informacoes{
-        text-align: right;
-        font-size: 16px;
-    }
-    .foto{
-        width: 34%;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        box-shadow: 0px 14px 13px 8px rgba(0,0,0,0.7);
-        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
-    }
-    h3{
-        font-size: 24px;
-    }
-    p{
-        font-size: 20px;
-    }
-}
-/* Responsividade Desktop */
-@media (min-width: 1024px) and (max-width: 1200px){
-    .titulo{
-        font-size: 30px;
-    }
-    .informacoes{
-        text-align: right;
-        font-size: 16px;
-    }
-    .foto{
-        width: 34%;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        box-shadow: 0px 18px 13px 10px rgba(0,0,0,0.7);
-        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
-    }
-    h3{
-        font-size: 24px;
-    }
-    p{
-        font-size: 20px;
-    }
-}
-/* Responsividade TV */
-@media (min-width: 1201px){
-    .titulo{
-        font-size: 30px;
-    }
-    .informacoes{
-        text-align: right;
-        font-size: 16px;
-    }
-    .foto{
-        width: 30%;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
-        box-shadow: 0px 20px 13px 12px rgba(0,0,0,0.7);
-        background: linear-gradient(100rad, rgba(98, 98, 98, 0.7), rgba(155, 197, 206, 0.7));
-    }
-    h3{
-        font-size: 24px;
-    }
-    p{
-        font-size: 20px;
-    }
+.instagram, .galeria, .github{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
 }
