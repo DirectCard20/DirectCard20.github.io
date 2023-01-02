@@ -2,6 +2,59 @@ html{
     background: url(/img/pexels-jarod-lovekamp-5109718.jpg) no-repeat;
     background-size: cover;
 }
+#card1{
+    background: rgba(217, 217, 217, 0.7);
+    backdrop-filter: blur(2.5px); 
+}
+#nome{
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    color: #2B2D39;
+}
+#informacoes{
+    font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    color: #484F18;
+}
+#divFoto{
+    background: linear-gradient(300deg, #626262 0%, rgba(155, 197, 195, 0) 100%);
+    border-style: solid;
+    border-color: #000000;
+}
+#card2, #card3, #card4, #card5{
+    background: rgba(217, 217, 217, 0.7);
+    backdrop-filter: blur(2.5px);
+    margin-left: auto;
+    margin-right: auto;
+}
+#objetivo, #formacao, #educacao, #idiomas{
+    font-family: 'BIZ UDGothic';
+    font-style: normal;
+    font-weight: 700;
+    color: #5E2012;
+}
+#card2 p, #card3 p, #card4 p, #card5 p{
+    font-family: 'Expletus Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #484F18;
+}
+#photographer p{
+    text-align: right;
+    font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+}
+#photographer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#photographer a:hover{
+    color: #BFBED1;
+}
 /* Responsividade Mobile */
 @media (min-width: 320px) and (max-width: 480px){
     #card1{
@@ -11,21 +64,15 @@ html{
         margin-top: 35px;
         margin-left: auto;
         margin-right: auto;
-        background: rgba(217, 217, 217, 0.7);
         border: 0.5px solid #000000;
-        backdrop-filter: blur(2.5px);
         border-radius: 14px;
     }
     #nome{
         margin-top: -4px;
         margin-left: 22px;
         margin-right: 22px;
-        font-family: 'Marcellus';
-        font-style: normal;
-        font-weight: 400;
         font-size: 10px;
         text-align: center;
-        color: #2B2D39;
     }
     #informacoes{
         width: 120px;
@@ -33,13 +80,9 @@ html{
         margin-top: 120px;
         margin-left: auto;
         margin-right: auto;
-        font-family: 'Lexend Mega';
-        font-style: normal;
-        font-weight: 400;
         font-size: 6px;
         line-height: 8px;
         text-align: center;
-        color: #484F18;
     }
     #divFoto{
         box-sizing: border-box;
@@ -48,10 +91,7 @@ html{
         margin-left: auto;
         margin-right: auto;
         margin-top: -130px;
-        background: linear-gradient(300deg, #626262 0%, rgba(155, 197, 195, 0) 100%);
         border-width: 0.5px 0px;
-        border-style: solid;
-        border-color: #000000;
         border-radius: 10px;
     }
     .foto{
@@ -75,11 +115,7 @@ html{
         box-sizing: border-box;
         width: 85%;
         margin-top: 23px;
-        margin-left: auto;
-        margin-right: auto;
-        background: rgba(217, 217, 217, 0.7);
         border: 0.5px solid #000000;
-        backdrop-filter: blur(2.5px);
         border-radius: 14px;
     }
     #card2{
@@ -96,23 +132,15 @@ html{
         margin-bottom: 40px;
     }
     #objetivo, #formacao, #educacao, #idiomas{
-        font-family: 'BIZ UDGothic';
-        font-style: normal;
-        font-weight: 700;
         font-size: 12px;
         margin-left: 10px;
         margin-top: -5px;
-        color: #5E2012;
     }
     #card2 p, #card3 p, #card4 p, #card5 p{
-        font-family: 'Expletus Sans';
-        font-style: normal;
-        font-weight: 400;
         font-size: 10px;
         margin-top: -10px;
         margin-left: 10px;
         width: 280px;
-        color: #484F18;
     }
     #card4 p{
         line-height: 18px;
@@ -121,60 +149,50 @@ html{
         line-height: 10px;
     }
     #photographer p{
-        text-align: right;
-        font-family: 'Lexend Mega';
-        font-style: normal;
-        font-weight: 400;
         font-size: 5px;
         margin-bottom: -5px;
-        color: #ffffff;
     }
-    #photographer a{
-        text-decoration: none;
-        color: #ffffff;
-    }
-    #photographer a:hover{
-        color: #BFBED1;
-    }
+}
+/* Responsividade Tablet */
+@media (min-width: 481px) and (max-width: 768px){
+
+}
+/* Responsividade Laptop */
+@media (min-width: 769px) and (max-width: 1023px){
+
+}
+/* Responsividade Desktop */
+@media (min-width: 1024px) and (max-width: 1200px){
+
 }
 /* Responsividade TV */
 @media (min-width: 1201px){
     #card1{
         box-sizing: border-box;
-        width: 896px;
+        width: 50%;
         height: 506px;
-        margin-top: 132px;
+        margin-top: 130px;
         margin-left: auto;
         margin-right: auto;
-        background: rgba(217, 217, 217, 0.7);
         border: 1px solid #000000;
-        backdrop-filter: blur(2.5px);
         border-radius: 30px;
     }
     #nome{
-        width: 647px;
+        width: 80%;
         height: 52px;
         margin-top: 10px;
         margin-left: 50px;
-        font-family: 'Marcellus';
-        font-style: normal;
-        font-weight: 400;
         font-size: 28px;
         line-height: 55px;
-        color: #2B2D39;
     }
     #informacoes{
         width: 411px;
         height: 77px;
         margin-left: 450px;
         margin-top: 20px;
-        font-family: 'Lexend Mega';
-        font-style: normal;
-        font-weight: 400;
         font-size: 20px;
         line-height: 25px;
         text-align: right;
-        color: #484F18;
     }
     #divFoto{
         box-sizing: border-box;
@@ -182,10 +200,7 @@ html{
         height: 266px;
         margin-left: 100px;
         margin-top: 10px;
-        background: linear-gradient(300deg, #626262 0%, rgba(155, 197, 195, 0) 100%);
         border-width: 1px 0px;
-        border-style: solid;
-        border-color: #000000;
         border-radius: 30px;
     }
     .foto{
@@ -204,13 +219,9 @@ html{
     }
     #card2, #card3, #card4, #card5{
         box-sizing: border-box;
-        width: 896px;
+        width: 50%;
         margin-top: 95px;
-        margin-left: auto;
-        margin-right: auto;
-        background: rgba(217, 217, 217, 0.7);
         border: 1px solid #000000;
-        backdrop-filter: blur(2.5px);
         border-radius: 30px;
     }
     #card2{
@@ -227,41 +238,21 @@ html{
         margin-bottom: 90px;
     }
     #objetivo, #formacao, #educacao, #idiomas{
-        font-family: 'BIZ UDGothic';
-        font-style: normal;
-        font-weight: 700;
         font-size: 34px;
         line-height: 34px;
         margin-left: 36px;
-        color: #5E2012;
     }
     #card2 p, #card3 p, #card4 p, #card5 p{
-        font-family: 'Expletus Sans';
-        font-style: normal;
-        font-weight: 400;
         font-size: 30px;
         line-height: 40px;
         margin-left: 36px;
         width: 824px;
-        color: #484F18;
     }
     #card5 p:nth-child(3){
         line-height: 0px;
     }
     #photographer p{
-        text-align: right;
-        font-family: 'Lexend Mega';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         margin-bottom: 0px;
-        color: #ffffff;
-    }
-    #photographer a{
-        text-decoration: none;
-        color: #ffffff;
-    }
-    #photographer a:hover{
-        color: #BFBED1;
     }
 }
