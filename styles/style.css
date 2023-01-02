@@ -1,5 +1,5 @@
 html{
-    background: url(/img/pexels-jarod-lovekamp-5109718.jpg) no-repeat;
+    background-image: url("/img/pexels-jarod-lovekamp-5109718.jpg");
     background-size: cover;
 }
 #card1{
@@ -169,7 +169,7 @@ html{
 @media (min-width: 1201px){
     #card1{
         box-sizing: border-box;
-        width: 50%;
+        width: 70%;
         height: 506px;
         margin-top: 130px;
         margin-left: auto;
@@ -219,7 +219,7 @@ html{
     }
     #card2, #card3, #card4, #card5{
         box-sizing: border-box;
-        width: 50%;
+        width: 70%;
         margin-top: 95px;
         border: 1px solid #000000;
         border-radius: 30px;
